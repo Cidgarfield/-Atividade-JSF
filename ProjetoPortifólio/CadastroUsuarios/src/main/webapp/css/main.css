@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Estilização para o corpo */
+body{
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilização do formulário */
+form {
+	width: 300px;
+	margin: 50px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+/* Estilização dos rótulos */
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+/* Estilização dos campos de entrada */
+input[type="text"], input[type="submit"]{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+/* Botão enviar */
+input[type="submit"] {
+	background-color: #28a745;
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #218838;
+}

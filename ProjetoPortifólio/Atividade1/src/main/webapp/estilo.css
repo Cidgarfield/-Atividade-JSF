@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+	height: 300vh;
+}
+
+.corpo {
+	position: absolute;
+	padding-bottom: 75%;
+}
+
+.curriculum{
+	text-align: center;	
+}
+
+
+
+.Titulos {
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+.caixaFoto{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	top: 100px;
+	left: 900px;
+	border-radius: 50%;
+	border: 5px solid black
+}
+
+.foto {
+	width : 100%;
+	height : 100%;
+	object-fit: cover;
+	object-position: 50% 30%;
+	
+	
+}
+
